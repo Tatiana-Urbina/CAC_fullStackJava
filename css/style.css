@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --main-color: #9F3647;
+    --secondary-color: #181419;
+    --third-color: #333333;
+    --fourth-color: #ffffff;
+}
+
+body{
+    background-color: var(--secondary-color);
+    color: var(--fourth-color);
+}
+
+.header{
+    background-color: var(--main-color);
+    height: 10vh;
+    position: static;
+    top: 0;
+    z-index: 10;
+
+    .navegacion{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 40px;
+        padding: 1.5rem 0;
+
+        .logo{
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 1.2rem;
+            color: var(--fourth-color);
+        }
+        
+        .listaNavegacion{
+            display: flex;
+            list-style: none;
+
+            li{
+                margin-right: 20px;
+            }
+
+            .linkNav{
+                text-decoration: none;
+                color: var(--fourth-color);
+                font-weight: 400;
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+}
+
+/*BODY*/
+.sectionPrincipal{
+    height: 90vh;
+    background: linear-gradient(to right top, #0000008a, #0000008a), url(../assets/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: medium;
+    text-align: center;
+        .tituloPrincipal{
+            font-weight: 600;
+            font-size: 2rem;
+        }
+        
+        .subtituloPrincipal{
+            font-weight: 100;
+        }
+        .btnRegistrarse{
+            padding: 1rem 2rem;
+            margin: 30px;
+            background-color: #9F3647;
+            text-decoration: none;
+            color: #ffffff;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            
+        }
+
+        
+}
+
+.sectionBuscador{
+    background-color: var(--secondary-color);
+    color: var(--fourth-color);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+        .tituloSectBuscador{
+            font-size: 1.6rem;
+            margin-bottom: 2rem;
+        }
+        .inputBuscar{
+            padding: 0px 20px;
+            color: rgba(166, 156, 156, 0.726);
+            background-color: var(--fourth-color);
+            font-size: 1rem;
+            border-radius: 20px;
+            margin: 20px 0px;
+            width: 500px;
+            height: 40px;
+        }
+        .btnBuscar{
+            background-color: var(--main-color);
+            padding: 10px 20px;
+            color: var(--fourth-color);
+            border-radius: 15px;
+            border-color: var(--fourth-color);
+            font-size: 1rem;
+        }
+}
+
+hr{
+    border: #9F3647 1px solid;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.peliculasTendencia{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+
+    .peliculas{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+}
+
+
+
