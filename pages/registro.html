@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body class="bodyRegistro">
+    <header class="header">
+        <nav class="navegacion">
+            <a class="logo" href="index.html">
+                <i class="bi bi-film"></i>
+                <span>CAC-Movies</span>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="sectionRegistro">
+            <form class="formRegistro" action="get">
+                <h2 class="tituloRegistro">Registro</h2>
+                <div>
+                    <input type="text" name="Nombre" placeholder="Nombre" id="">
+                </div>
+                <div>
+                    <input type="text" name="Nombre" placeholder="Apellido" id="">
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="Correo" id="">
+                </div>
+                <div>
+                    <input type="password" name="password" placeholder="Contraseña" id="">
+                </div>
+                <div>
+                    <input type="date" name="" id="">
+                </div>
+                <div>
+                    <select name="pais" id="pais">
+                        <option value="AR">Argentina</option>
+                        <option value="BO">Bolivia</option>
+                        <option value="BR">Brasil</option>
+                        <option value="CH">Chile</option>
+                        <option value="CO">Colombia</option>
+                        <option value="EC">Ecuador</option>
+                        <option value="PY">Paraguay</option>
+                    </select>
+                </div>
+                <div class="terminos">
+                    <input type="checkbox" class="check" id="terminos">
+                    <label for="terminos">Acepto términos y condiciones.</label>
+                </div>
+                <div>
+                    <input class="btnRegistro" type="submit" value="Registrarse">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

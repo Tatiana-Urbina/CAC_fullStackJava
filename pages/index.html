@@ -20,7 +20,7 @@
                     <a class="linkNav" href="">Tendencias</a>
                 </li>
                 <li>
-                    <a class="linkNav" href="">Registrarse</a>
+                    <a class="linkNav" href="./registro.html">Registrarse</a>
                 </li>
                 <li>
                     <a class="linkNav" href="">Iniciar Sesión</a>
@@ -28,7 +28,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="main">
         <section class="sectionPrincipal">
             <h1 class="tituloPrincipal">
                 Películas y series en un solo lugar
@@ -37,23 +37,248 @@
                 Disfruta donde quieras.<br>
                 Cancela en cualquier momento.
             </h2>
-            <a class="btnRegistrarse" href="#">Registrate</a>
+            <a class="btnRegistrarse" href="./registro.html">Registrate</a>
         </section>
         <section class="sectionBuscador">
             <h2 class="tituloSectBuscador">¿Qué estas buscando para ver?</h2>
             <form class="buscador">
                 <input class="inputBuscar" type="text" placeholder="Buscar..." name="buscar" id="buscar">
-                <input class="btnBuscar" type="submit" value="buscar">
+                <input class="btnBuscar" type="submit" value="Buscar">
             </form>
         </section>
         <hr>
         <section class="peliculasTendencia">
             <h3 class="tituloSectionTendencia">Las tendencias de hoy</h3>
+            <div class="peliculas">
+                <div class="peliculas">
+                    <a href="./detalle.html">
+                        <div class="pelicula">
+                            <img class="imgTendencia" src="../assets/peli_1.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peliculas">
+                    <a href="./detalle.html">
+                        <div class="pelicula">
+                            <img class="imgTendencia" src="../assets/peli_2.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peliculas">
+                    <a href="./detalle.html">
+                        <div class="pelicula">
+                            <img class="imgTendencia" src="../assets/peli_3.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peliculas">
+                    <a href="./detalle.html">
+                        <div class="pelicula">
+                            <img class="imgTendencia" src="../assets/peli_4.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peliculas">
+                    <a href="./detalle.html">
+                        <div class="pelicula">
+                            <img class="imgTendencia" src="../assets/peli_5.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peliculas">
+                    <a href="./detalle.html">
+                        <div class="pelicula">
+                            <img class="imgTendencia" src="../assets/peli_6.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peliculas">
+                    <a href="./detalle.html">
+                        <div class="pelicula">
+                            <img class="imgTendencia" src="../assets/peli_7.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peliculas">
+                    <a href="./detalle.html">
+                        <div class="pelicula">
+                            <img class="imgTendencia" src="../assets/peli_8.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peliculas">
+                    <a href="./detalle.html">
+                        <div class="pelicula">
+                            <img class="imgTendencia" src="../assets/peli_9.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peliculas">
+                    <a href="./detalle.html">
+                        <div class="pelicula">
+                            <img class="imgTendencia" src="../assets/peli_10.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peliculas">
+                    <a href="">
+                        <div class="pelicula">
+                            <img class="imgTendencia" src="../assets/peli_11.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peliculas">
+                    <a href="">
+                        <div class="pelicula">
+                            <img class="imgTendencia" src="../assets/peli_12.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
             <button class="anterior">Anterior</button>
             <button class="siguiente">Siguiente</button>
         </section>
-        <section class="peliculasAclamadas"></section>
+        <hr>
+        <section class="peliculasAclamadas">
+            <h3 class="tituloPelicula">Las más aclamadas</h3>
+            <div class="aclamadas">
+                <div class="peliculas peli-aclamadas">
+                    <a href="">
+                        <div class="pelicula">
+                            <img class="imgAclamadas imgAcl" src="../assets/aclamada_1.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peliculas peli-aclamadas">
+                    <a href="">
+                        <div class="pelicula">
+                            <img class="imgAclamadas" src="../assets/aclamada_2.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peliculas peli-aclamadas">
+                    <a href="">
+                        <div class="pelicula">
+                            <img class="imgAclamadas" src="../assets/aclamada_3.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peliculas peli-aclamadas">
+                    <a href="">
+                        <div class="pelicula">
+                            <img class="imgAclamadas" src="../assets/aclamada_4.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peliculas peli-aclamadas">
+                    <a href="">
+                        <div class="pelicula">
+                            <img class="imgAclamadas" src="../assets/aclamada_5.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peliculas peli-aclamadas">
+                    <a href="">
+                        <div class="pelicula">
+                            <img class="imgAclamadas" src="../assets/aclamada_6.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peliculas peli-aclamadas">
+                    <a href="">
+                        <div class="pelicula">
+                            <img class="imgAclamadas" src="../assets/aclamada_7.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peliculas peli-aclamadas">
+                    <a href="">
+                        <div class="pelicula">
+                            <img class="imgAclamadas" src="../assets/aclamada_8.jpg" alt="">
+                            <div class="tituloPelicula">
+                                <h4>Kung Fu Panda</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer class="piePag">
+        <nav class="navegacion navFooter">
+            <ul class="listaNavegacion">
+                <li>
+                    <a class="linkNav" href="#">Términos y condiciones</a>
+                </li>
+                <li>
+                    <a class="linkNav" href="#">Preguntas frecuentes</a>
+                </li>
+                <li>
+                    <a class="linkNav" href="#">Ayuda</a>
+                </li>
+                <li>
+                    <a class="linkNav" href="#">Administrador de películas</a>
+                </li>
+            </ul>
+            <i class="bi bi-arrow-up-square-fill"></i>
+        </nav>
+    </footer>
 </body>
 </html>
