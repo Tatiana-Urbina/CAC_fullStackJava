@@ -23,7 +23,7 @@
                     <a class="linkNav" href="./registro.html">Registrarse</a>
                 </li>
                 <li>
-                    <a class="linkNav" href="">Iniciar Sesión</a>
+                    <a class="linkNav" href="./login.html">Iniciar Sesión</a>
                 </li>
             </ul>
         </nav>
@@ -47,125 +47,17 @@
             </form>
         </section>
         <hr>
+        
         <section class="peliculasTendencia">
             <h3 class="tituloSectionTendencia">Las tendencias de hoy</h3>
             <div class="peliculas">
-                <div class="peliculas">
+                <div class="peliculas" id="movies">
                     <a href="./detalle.html">
-                        <div class="pelicula">
-                            <img class="imgTendencia" src="../assets/peli_1.jpg" alt="">
-                            <div class="tituloPelicula">
-                                <h4>The Beekeeper</h4>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="peliculas">
-                    <a href="./detalle.html">
-                        <div class="pelicula">
-                            <img class="imgTendencia" src="../assets/peli_2.jpg" alt="">
-                            <div class="tituloPelicula">
-                                <h4>Badland Hunters</h4>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="peliculas">
-                    <a href="./detalle.html">
-                        <div class="pelicula">
-                            <img class="imgTendencia" src="../assets/peli_3.jpg" alt="">
-                            <div class="tituloPelicula">
-                                <h4>The Marvels</h4>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="peliculas">
-                    <a href="./detalle.html">
-                        <div class="pelicula">
-                            <img class="imgTendencia" src="../assets/peli_4.jpg" alt="">
-                            <div class="tituloPelicula">
-                                <h4>Wonka</h4>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="peliculas">
-                    <a href="./detalle.html">
-                        <div class="pelicula">
-                            <img class="imgTendencia" src="../assets/peli_5.jpg" alt="">
-                            <div class="tituloPelicula">
-                                <h4>Aquaman and the lost kingdom</h4>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="peliculas">
-                    <a href="./detalle.html">
-                        <div class="pelicula">
-                            <img class="imgTendencia" src="../assets/peli_6.jpg" alt="">
-                            <div class="tituloPelicula">
-                                <h4>Migration</h4>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="peliculas">
-                    <a href="./detalle.html">
-                        <div class="pelicula">
-                            <img class="imgTendencia" src="../assets/peli_7.jpg" alt="">
-                            <div class="tituloPelicula">
-                                <h4>60 minutes</h4>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="peliculas">
-                    <a href="./detalle.html">
-                        <div class="pelicula">
-                            <img class="imgTendencia" src="../assets/peli_8.jpg" alt="">
-                            <div class="tituloPelicula">
-                                <h4>Wish</h4>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="peliculas">
-                    <a href="./detalle.html">
-                        <div class="pelicula">
-                            <img class="imgTendencia" src="../assets/peli_9.jpg" alt="">
-                            <div class="tituloPelicula">
-                                <h4>The Masked Saint</h4>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="peliculas">
-                    <a href="./detalle.html">
-                        <div class="pelicula">
-                            <img class="imgTendencia" src="../assets/peli_10.jpg" alt="">
-                            <div class="tituloPelicula">
-                                <h4>Due Justice</h4>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="peliculas">
-                    <a href="">
-                        <div class="pelicula">
-                            <img class="imgTendencia" src="../assets/peli_11.jpg" alt="">
-                            <div class="tituloPelicula">
-                                <h4>Orion and the Dark</h4>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="peliculas">
-                    <a href="">
-                        <div class="pelicula">
-                            <img class="imgTendencia" src="../assets/peli_12.jpg" alt="">
-                            <div class="tituloPelicula">
-                                <h4>Description</h4>
+                        <div class="pelicula" id="movie">
+                            <img class="imgTendencia" src="" alt="">
+                            <div>
+                                <p></p>
+                                <h4></h4>
                             </div>
                         </div>
                     </a>
@@ -174,6 +66,7 @@
             <button class="anterior">Anterior</button>
             <button class="siguiente">Siguiente</button>
         </section>
+        
         <hr>
         <section class="peliculasAclamadas">
             <h3 class="tituloPelicula">Las más aclamadas</h3>
@@ -280,5 +173,6 @@
             <i class="bi bi-arrow-up-square-fill"></i>
         </nav>
     </footer>
+    <script src="../js/Api.js"></script>
 </body>
 </html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body class="bodyLogin">
+    <header class="header">
+        <nav class="navegacion">
+            <a class="logo" href="index.html">
+                <i class="bi bi-film"></i>
+                <span>CAC-Movies</span>
+            </a>
+        </nav>
+    </header>
+    <div>
+        <section class="formularioLogin">
+            <form class="formLogin" id="loginForm" action="get">
+                <h2 class="tituloForm">Iniciar Sesión</h2>
+                <div class="inputs">
+                    <label for="username" class="form-label">Nobre de usuario:</label>
+                    <input type="text" id="username" name="username">
+                    <div id="usernameError" class="error-message"></div>
+                </div>
+                <div class="inputs">
+                    <label for="username" class="form-label">Contraseña:</label>
+                    <input type="password" id="passwordLogin" name="password">
+                    <div id="passwordError" class="error-message"></div>
+                </div>
+                <div>
+                    <input class="btnIngresar" type="submit" value="Ingresar">
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+
+<script src="../js/login.js"></script>
+</html>

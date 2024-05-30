@@ -250,6 +250,9 @@ hr{
                     transform: translateY(-50%) translateX(-50%);
                     opacity: 0;
                 }
+                .anioPelicula{
+                    margin-top: 50px;
+                }
             }
         }
 
@@ -259,6 +262,10 @@ hr{
 
         .pelicula:hover{
             .tituloPelicula{
+                opacity: 1;
+                color: #ffffff;
+            }
+            .anioPelicula:hover{
                 opacity: 1;
                 color: #ffffff;
             }
@@ -330,6 +337,9 @@ hr{
 
 /*REGISTRO*/
 
+.bodyRegistro{
+    background-image: linear-gradient(to right top, #00000081, #00000081), url(../assets/bg-register.jpg);
+}
 
 .formRegistro{
     width: 50%;
@@ -356,7 +366,7 @@ hr{
 
 input, select{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-color: var(--third-color);
     height: 40px;
     border-radius: 15px;
@@ -383,6 +393,7 @@ input, select{
     padding-right: 20px;
 
 }
+
 
 @media screen and (max-width: 992px){
     .navegacion{
@@ -423,6 +434,7 @@ input, select{
         }
     }
     
+    
     .btnRegistro{
         width: 40%;
         background-color: #9F3647;
@@ -430,6 +442,51 @@ input, select{
     
     }
 }
+
+/*FORMULARIO LOGIN*/
+.bodyLogin{
+    background: linear-gradient(to right top, #00000081, #00000081), url(../assets/bg-register.jpg);
+    
+}
+.formularioLogin{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    .tituloForm{
+        margin: 30px 0;
+    }
+}
+
+.formLogin{
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(27, 27, 27, 0);
+    height: auto;
+    background-color: var(--third-color);
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        input{
+            margin-left: 30px;
+            width: 80%;
+            margin-top: 10px;
+        }
+        label{
+            margin-left: 30px;
+        }
+    }
+    
+    .btnIngresar{
+        margin-top: 40px;
+        width: 100px;
+        background-color: #9F3647;
+    }
+    
+}
+
+
 /*DETALLE PELICULAS*/
 
 
@@ -499,5 +556,28 @@ input, select{
                 }
             }
     }
+}
+
+/*VALIDACIÓN*/
+.error-message{
+    margin-left: 30px;
+    color: rgb(212, 28, 28);
+}
+
+#formRegistro #nombre.inValido, #apellido.inValido, #email.inValido, #password.inValido, #dataFild.inValido, #pais.inValido,
+#loginForm #username.inValido{
+    border: 3px solid rgb(212, 28, 28);
+}
+
+#formRegistro #nombre.valido, #apellido.valido, #email.valido, #password.valido, #dataFild.valido, #pais.valido,ç {
+    border: 3px solid rgb(12, 190, 12);
+}
+
+#loginForm #username.valido, #passwordLogin.valido{
+    border: 3px solid rgb(12, 190, 12);
+}
+
+#loginForm #username.inValido, #passwordLogin.inValido{
+    border: 3px solid rgb(212, 28, 28);
 }
 
